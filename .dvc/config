@@ -1,7 +1,12 @@
 [core]
-    remote = myremote
+    remote = web
 ['remote "dataset"']
     url = /home/juno/Dev/storage
 ['remote "myremote"']
     url = gdrive://19Y_NJOgSowm7lr1rIGs5P1prTwke_mc5
-
+['remote "terminal"']
+    url = ssh://seudonimo@192.168.1.223:/volume1/home/seudonimo/www/storage
+    port = 22
+    ask_password = true
+['remote "web"']
+    url = http://192.168.1.223/~seudonimo/storage
