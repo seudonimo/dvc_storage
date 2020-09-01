@@ -1,0 +1,7 @@
+[core]
+    remote = myremote
+['remote "dataset"']
+    url = /home/juno/Dev/storage
+['remote "myremote"']
+    url = gdrive://19Y_NJOgSowm7lr1rIGs5P1prTwke_mc5
+
